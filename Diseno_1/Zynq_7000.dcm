@@ -1,5 +1,9 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP MT41K256M16TW-107_P
+F http://www.farnell.com/datasheets/3151560.pdf
+$ENDCMP
+#
 $CMP TPS563201
 F https://www.ti.com/lit/ds/symlink/tps563201.pdf?ts=1608479868872&ref_url=https%253A%252F%252Fwww.google.com%252F
 $ENDCMP
