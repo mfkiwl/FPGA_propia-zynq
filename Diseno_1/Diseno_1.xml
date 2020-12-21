@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:\Users\XD\Documents\OneDrive - Universidad de Alcala\FPGA_design\Diseno_1\Diseno_1\Diseno_1.sch</source>
+    <date>20/12/2020 20:51:17</date>
+    <tool>Eeschema (5.1.4)-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Diseno_1.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components/>
+  <libparts/>
+  <libraries/>
+  <nets/>
+</export>

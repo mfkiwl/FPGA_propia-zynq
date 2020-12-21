@@ -1,0 +1,12 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TPS563201
+F https://www.ti.com/lit/ds/symlink/tps563201.pdf?ts=1608479868872&ref_url=https%253A%252F%252Fwww.google.com%252F
+$ENDCMP
+#
+$CMP XC7Z010
+D U
+K zynq7000
+$ENDCMP
+#
+#End Doc Library

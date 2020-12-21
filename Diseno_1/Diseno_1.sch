@@ -1,0 +1,56 @@
+EESchema Schematic File Version 4
+LIBS:Diseno_1-cache
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Zynq_7000:XC7Z010 #ZYNQ_07000101
+U 5 1 5FE18120
+P 6100 3550
+F 0 "#ZYNQ_07000101" H 6125 6057 50  0000 C CNN
+F 1 "XC7Z010" H 5800 1100 50  0001 C CNN
+F 2 "ZYNQ_7000:BGA-400_20x20_17.0x17.0mm" H 5950 1100 50  0001 C CNN
+F 3 "" H 5950 1100 50  0001 C CNN
+	5    6100 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Zynq_7000:TPS563201 U21
+U 1 1 5FDFEF21
+P 9150 2750
+F 0 "U21" H 9125 3231 50  0000 C CNN
+F 1 "TPS563201" H 9125 3140 50  0000 C CNN
+F 2 "ZYNQ_7000:TPS563201" H 8800 3000 50  0001 C CNN
+F 3 "https://www.ti.com/lit/ds/symlink/tps563201.pdf?ts=1608479868872&ref_url=https%253A%252F%252Fwww.google.com%252F" H 8800 3000 50  0001 C CNN
+	1    9150 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8650 2600 7150 2600
+Wire Wire Line
+	7150 2600 7150 2550
+Wire Wire Line
+	8650 2850 8650 4550
+Wire Wire Line
+	8650 4550 7150 4550
+Wire Wire Line
+	7150 4550 7150 4450
+Wire Wire Line
+	9550 2700 9550 2600
+Wire Wire Line
+	9550 2600 9600 2600
+Wire Wire Line
+	9600 2850 9600 2600
+Connection ~ 9600 2600
+$EndSCHEMATC
