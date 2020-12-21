@@ -5,11 +5,12 @@ Todo el desarrollo está hecho con KiCad (software libre) para que cualquiera pu
 
 ## Libreria
 El fichero tiene una librería llamada 'Zynq-7000' en la que está el symbol de un XC7Z010 del cual se implementará la versión CLG400 (400 pines en formato de soldadura BGA) 
+## XC7Z010
 El símbolo consta de 9 partes, de las que se va a describir su selección a continuación
 ### - _Símbolo A_
 ![diseno_A](Diseno_1/imagenes/XC7Z010-U1A.PNG)
 
-En este símbolo se reflejan los pines de referencia
+En este símbolo se reflejan los pines de referencia, además de los pines de depuración TMS, TCK, TDI y TDO. Estos pines pueden necesitar de un cable depurar para cargar el programa o de un USB OTG, que permita evitar tener que usar un cable depurador.
 
 ### - _Símbolo B_
 ![diseno_B](Diseno_1/imagenes/XC7Z010-U1B.PNG)
@@ -29,7 +30,7 @@ En este símbolo se reflejan los pines de entrada/salida que se podrán configur
 ### - _Símbolo E_
 ![diseno_E](Diseno_1/imagenes/XC7Z010-U1E.PNG)
 
-En este símbolo se reflejan los pines que van a ir a la/las memoria ram
+En este símbolo se reflejan los pines que van a ir a la/las memoria ram. A los pines de la ram se pueden unir varias memorias para aumentar su tamaño.
 
 ### - _Símbolo F_
 ![diseno_F](Diseno_1/imagenes/XC7Z010-U1F.PNG)
@@ -44,17 +45,17 @@ En este símbolo se reflejan los pines MIO continuación de los anteriores
 ### - _Símbolo H_
 ![diseno_F](Diseno_1/imagenes/XC7Z010-U1H.PNG)
 
-En este símbolo se reflejan las alimentaciones de cada parte del integrado
+En este símbolo se reflejan las alimentaciones de cada parte del integrado. Hay que tener en cuenta que cada parte tiene una alimentación distinta, la VCCO_BRAM y los VCCO_PINT de 1V, los VCCO_MIO 3.3V, los VCCO_DDR de 1.35V y los VCCAUX y los VCCPAUX de 1.8V
 
 ### - _Símbolo I_
 ![diseno_I](Diseno_1/imagenes/XC7Z010-U1I.PNG)
 
-En este símbolo se reflejan las masas de todo el integrado
+En este símbolo se reflejan las masas de todo el integrado. Todas las masas van unidas a mismo punto.
 
 ### - *Formato del integrado*
 ![CLG400](Diseno_1/imagenes/CLG400.PNG)
 
 En esta imagen se refleja como es el integrado CLG400 de 400 pines(20x20) para BGA
 
-*** Toda la documentación del frabicante se puede obtener de: ***
+*** Toda la documentación del frabicante se puede obtener del siguiente enlace: ***
 https://www.xilinx.com/support/documentation/user_guides/ug865-Zynq-7000-Pkg-Pinout.pdf
