@@ -5,6 +5,7 @@ F https://www.ti.com/lit/ds/symlink/tps563201.pdf?ts=1608479868872&ref_url=https
 $ENDCMP
 #
 $CMP XC7Z010
+D U
 K zynq7000
 $ENDCMP
 #

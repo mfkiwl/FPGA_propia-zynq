@@ -9,4 +9,8 @@ D U
 K zynq7000
 $ENDCMP
 #
+$CMP XC7Z010-BUENO
+D estos son los símbolos del XC7z010
+$ENDCMP
+#
 #End Doc Library

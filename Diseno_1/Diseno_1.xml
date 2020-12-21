@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="D">
   <design>
-    <source>C:\Users\XD\Documents\OneDrive - Universidad de Alcala\FPGA_design\Diseno_1\Diseno_1\Diseno_1.sch</source>
-    <date>20/12/2020 20:51:17</date>
+    <source>C:\Users\XD\Documents\OneDrive - Universidad de Alcala\FPGA_design\FPGA_propia\Diseno_1\Diseno_1.sch</source>
+    <date>21/12/2020 11:25:50</date>
     <tool>Eeschema (5.1.4)-1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -18,8 +18,53 @@
       </title_block>
     </sheet>
   </design>
-  <components/>
-  <libparts/>
-  <libraries/>
-  <nets/>
+  <components>
+    <comp ref="U21">
+      <value>TPS563201</value>
+      <footprint>ZYNQ_7000:TPS563201</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/tps563201.pdf?ts=1608479868872&amp;ref_url=https%253A%252F%252Fwww.google.com%252F</datasheet>
+      <libsource lib="Zynq_7000" part="TPS563201" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FDFEF21</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Zynq_7000" part="TPS563201">
+      <docs>https://www.ti.com/lit/ds/symlink/tps563201.pdf?ts=1608479868872&amp;ref_url=https%253A%252F%252Fwww.google.com%252F</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TPS563201</field>
+        <field name="Footprint">ZYNQ_7000:TPS563201</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="input"/>
+        <pin num="2" name="SW" type="input"/>
+        <pin num="3" name="IN" type="input"/>
+        <pin num="4" name="VFB" type="input"/>
+        <pin num="5" name="EN" type="input"/>
+        <pin num="6" name="VBST" type="input"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Zynq_7000">
+      <uri>C:\Users\XD\Documents\OneDrive - Universidad de Alcala\FPGA_design\FPGA_propia\Diseno_1/Zynq_7000.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="24" name="Net-(U21-Pad3)">
+      <node ref="U21" pin="3"/>
+    </net>
+    <net code="25" name="Net-(U21-Pad2)">
+      <node ref="U21" pin="2"/>
+      <node ref="U21" pin="4"/>
+    </net>
+    <net code="26" name="Net-(U21-Pad1)">
+      <node ref="U21" pin="1"/>
+      <node ref="U21" pin="5"/>
+    </net>
+    <net code="28" name="Net-(U21-Pad6)">
+      <node ref="U21" pin="6"/>
+    </net>
+  </nets>
 </export>
