@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:Diseno_1-cache
 EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
@@ -15,27 +14,27 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Sheet
-S 3250 4450 1200 850 
-U 5FFBC59B
+S 2600 4150 1650 1400
+U 5FE4D665
 F0 "Alimentaciones" 50
-F1 "alimentaciones.sch" 50
+F1 "alimentacion.sch" 50
 $EndSheet
 $Sheet
-S 5650 4150 1800 1350
-U 60C35662
-F0 "Memoria RAM" 50
+S 5150 4150 1850 1350
+U 5FE4D69B
+F0 "Memoria Ram" 50
 F1 "DDR.sch" 50
 $EndSheet
 $Sheet
-S 8150 4150 2050 1400
-U 60C66A49
-F0 "Entradas y Salidas" 50
-F1 "ent_sal.sch" 50
+S 7550 4150 1800 1350
+U 5FE4D6D0
+F0 "Pines de salida" 50
+F1 "Pines.sch" 50
 $EndSheet
 $Sheet
-S 10850 4200 1900 1350
-U 60C66A87
-F0 "Referencias y MIOs" 50
-F1 "referencia.sch" 50
+S 9950 4150 1850 1400
+U 5FE4D6FC
+F0 "Pines MIO" 50
+F1 "MIO.sch" 50
 $EndSheet
 $EndSCHEMATC
