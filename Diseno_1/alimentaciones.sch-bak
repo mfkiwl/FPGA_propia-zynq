@@ -2251,8 +2251,6 @@ Wire Wire Line
 Wire Wire Line
 	9050 9300 9050 8950
 Connection ~ 9050 8950
-Text Label 10850 6800 0    50   ~ 0
-DDR_A14
 Wire Wire Line
 	11100 7150 11100 7250
 Wire Wire Line

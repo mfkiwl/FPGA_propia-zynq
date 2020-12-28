@@ -2015,17 +2015,10 @@ Connection ~ 11100 8050
 Wire Wire Line
 	11100 8050 11100 8150
 Wire Wire Line
-	10850 7950 11100 7950
-Wire Wire Line
 	11100 7650 11100 7750
-Connection ~ 11100 7950
-Wire Wire Line
-	11100 7950 11100 8050
 Wire Wire Line
 	10850 7850 11100 7850
 Connection ~ 11100 7850
-Wire Wire Line
-	11100 7850 11100 7950
 Wire Wire Line
 	10850 7750 11100 7750
 Connection ~ 11100 7750
@@ -2280,4 +2273,11 @@ F 3 "" H 10000 -900 50  0001 C CNN
 	9    10100 2350
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	11100 7850 11100 7950
+Wire Wire Line
+	10850 7950 11100 7950
+Connection ~ 11100 7950
+Wire Wire Line
+	11100 7950 11100 8050
 $EndSCHEMATC
