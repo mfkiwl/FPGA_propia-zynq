@@ -5,7 +5,7 @@ Todo el desarrollo está hecho con KiCad (software libre) para que cualquiera pu
 
 ## Libreria
 El fichero tiene una librería llamada 'Zynq-7000' en la que está el symbol de un XC7Z010 del cual se implementará la versión CLG400 (400 pines en formato de soldadura BGA) 
-## XC7Z010
+## XC7Z010-BUENO
 El símbolo consta de 9 partes, de las que se va a describir su selección a continuación
 ### - _Símbolo A_
 ![diseno_A](Diseno_1/imagenes/XC7Z010-U1A.PNG)
@@ -58,4 +58,16 @@ En este símbolo se reflejan las masas de todo el integrado. Todas las masas van
 En esta imagen se refleja como es el integrado CLG400 de 400 pines(20x20) para BGA
 
 *** Toda la documentación del frabicante se puede obtener del siguiente enlace: ***
-https://www.xilinx.com/support/documentation/user_guides/ug865-Zynq-7000-Pkg-Pinout.pdf
+Documentación para el empaquetado: https://www.xilinx.com/support/documentation/user_guides/ug865-Zynq-7000-Pkg-Pinout.pdf
+Documentación de los pines: https://www.xilinx.com/support/packagefiles/z7packages/xc7z010clg400pkg.txt
+
+## Memoria RAM
+Para la memoria ram se utiliza una MT4K256M16TW-107:P
+### Datasheet
+http://www.farnell.com/datasheets/3151560.pdf
+### Símbolo
+El símbolo utilizado es el siguiente
+![Memoria Ram](Diseno_1/imagenes/TPS563201.PNG)
+### Huella
+La huella de la memoria ram consta de una matriz de 6x16 que está fragmetada en dos partes separadas por una zona en la que van 3 columnas de pines vacías.
+![Huella Memoria Ram](Diseno_1/imagenes/TPS563201_huella.PNG)
