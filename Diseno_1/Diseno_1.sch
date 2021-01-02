@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Sheet
-S 3250 4450 1200 850 
+S 3000 4150 1750 1400
 U 5FFBC59B
 F0 "Alimentaciones" 50
 F1 "alimentaciones.sch" 50
