@@ -68,8 +68,6 @@ Text Label 3350 5600 2    50   ~ 0
 BANK34_T12
 Text Label 3350 5700 2    50   ~ 0
 BANK34_U12
-Text Label 3350 5800 2    50   ~ 0
-BANK34_U13
 Text Label 3350 5900 2    50   ~ 0
 BANK34_V13
 Text Label 3350 6000 2    50   ~ 0
@@ -369,8 +367,6 @@ Wire Wire Line
 Wire Wire Line
 	2800 5700 3350 5700
 Wire Wire Line
-	2800 5800 3350 5800
-Wire Wire Line
 	2800 5900 3350 5900
 Wire Wire Line
 	2800 6000 3350 6000
@@ -578,8 +574,6 @@ Text Label 1800 1650 0    50   ~ 0
 BANK34_T12
 Text Label 1800 1750 0    50   ~ 0
 BANK34_U12
-Text Label 1800 1850 0    50   ~ 0
-BANK34_U13
 Text Label 1800 1950 0    50   ~ 0
 BANK34_V13
 Text Label 1800 2050 0    50   ~ 0
@@ -622,8 +616,6 @@ Wire Wire Line
 	2350 1650 1800 1650
 Wire Wire Line
 	2350 1750 1800 1750
-Wire Wire Line
-	2350 1850 1800 1850
 Wire Wire Line
 	2350 1950 1800 1950
 Wire Wire Line
@@ -858,4 +850,17 @@ Wire Wire Line
 	1800 3450 2350 3450
 Wire Wire Line
 	4950 3800 5500 3800
+$Comp
+L power:GND #PWR0128
+U 1 1 604F949B
+P 3500 5800
+F 0 "#PWR0128" H 3500 5550 50  0001 C CNN
+F 1 "GND" V 3505 5672 50  0000 R CNN
+F 2 "" H 3500 5800 50  0001 C CNN
+F 3 "" H 3500 5800 50  0001 C CNN
+	1    3500 5800
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3500 5800 2800 5800
 $EndSCHEMATC
